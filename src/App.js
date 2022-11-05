@@ -1,9 +1,10 @@
 import "./App.css";
+import HomeScreen from "./HomeScreen";
 
 function App() {
   return (
     <div className="app">
-      <h1>Let's build netlix</h1>
+      <HomeScreen />
     </div>
   );
 }
