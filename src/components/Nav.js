@@ -21,7 +21,14 @@ function Nav() {
   return (
     <div className={`nav ${show && "nav_black"}`}>
       <div className="nav-contents">
-        <img className="netflix_logo" src={logo} alt="Netflix big logo" />
+        <div className="nav-left-side">
+          <img className="netflix_logo" src={logo} alt="Netflix big logo" />
+          <p className="category">Strona główna</p>
+          <p className="category">Seriale i Programy</p>
+          <p className="category">Filmy</p>
+          <p className="category">Nowe i popularne</p>
+          <p className="category">Moja lista</p>
+        </div>
 
         <img
           className="netflix_avatar"
