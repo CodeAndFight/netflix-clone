@@ -16,8 +16,9 @@
 }
 
 .row__poster {
-  max-height: 30rem;
+  height: 20rem;
   cursor: pointer;
+  object-fit: contain;
 }
 
 .row__poster:hover {
@@ -27,7 +28,10 @@
 }
 
 .row__poserLarge {
-  max-height: 250px;
-  transition: all 0.5s;
+  min-height: 250px;
+}
+
+.row__poserLarge:hover {
+  transform: scale(1.09);
   opacity: 1;
 }
